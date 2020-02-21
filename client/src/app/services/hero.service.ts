@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+import { Injectable } from "client/client/node_modules/@angular/core/core";
 import { Observable, of } from "rxjs";
 import { catchError, map, tap } from "rxjs/operators";
 

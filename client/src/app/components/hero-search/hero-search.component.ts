@@ -1,4 +1,7 @@
-import { Component, OnInit } from "@angular/core";
+import {
+  Component,
+  OnInit
+} from "client/client/node_modules/@angular/core/core";
 import { Observable, Subject } from "rxjs";
 
 import { debounceTime, distinctUntilChanged, switchMap } from "rxjs/operators";
